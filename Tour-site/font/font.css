@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Balqis';
+    src: url('Balqis.eot');
+    src: url('Balqis.eot?#iefix') format('embedded-opentype'),
+        url('Balqis.woff2') format('woff2'),
+        url('Balqis.woff') format('woff'),
+        url('Balqis.svg#Balqis') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
