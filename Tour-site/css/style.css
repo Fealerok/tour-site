@@ -343,6 +343,7 @@
 .btn button{
     border: 2px solid #E2AB3F;
     padding: 11px 53px 11px 53px;
+    border-radius: 100px;
 }
 
 .block_for_price{
