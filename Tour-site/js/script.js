@@ -117,6 +117,9 @@ $(document).ready(function(){
     });
     
     
+    $('.btn button').click(function(){
+        alert("Заявка отправлена!");
+    });
     
     $(".main").addClass("animate__animated animate__slideInDown");
     
