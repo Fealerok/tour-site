@@ -3,6 +3,46 @@ $(document).ready(function(){
         let valhref = $(this).attr("href");
         $("html, body").animate({scrollTop: $(valhref).offset().top-100+'px'});
     });
+    $(".button_menu").click(function(){
+        if ($(".btns_nav ul").hasClass("show_me2") && $(".btns_nav ul li").hasClass("show_me") && $("#li1").hasClass("animate__animated animate__fadeInDown") && $("#li1").hasClass("show_op") && $("#li2").hasClass("animate__animated animate__fadeInDown") && $("#li2").hasClass("show_op") && $("#li3").hasClass("animate__animated animate__fadeInDown") && $("#li3").hasClass("show_op")){
+            
+            $(".btns_nav ul").removeClass("show_me2");
+            $(".btns_nav ul li").removeClass("show_me");
+            $("#li1").removeClass("animate__animated animate__fadeInDown");
+            $("#li1").removeClass("show_op");
+            $("#li2").removeClass("animate__animated animate__fadeInDown")
+            $("#li2").removeClass("show_op")
+            $("#li3").removeClass("animate__animated animate__fadeInDown")
+            $("#li3").removeClass("show_op")
+            
+        }
+        
+        else{
+            
+            
+            
+            
+            
+        $(".btns_nav ul").addClass("show_me2");
+        $(".btns_nav ul li").addClass("show_me");
+        $("#li1").addClass("animate__animated animate__fadeInDown");
+        $("#li1").addClass("show_op");
+        setTimeout(function(){
+            $("#li2").addClass("animate__animated animate__fadeInDown");
+            $("#li2").addClass("show_op");
+        }, 200);
+        setTimeout(function(){
+            $("#li3").addClass("animate__animated animate__fadeInDown");
+            $("#li3").addClass("show_op");
+        }, 400);
+        console.log($(".btns_nav ul li"));
+            
+        }
+    });
+    
+    $("#bron").click(function(){
+        $('html, body').animate({scrollTop: $('#date').offset().top-100+'px'})
+    });
     $(window).scroll(function(){
         let scrollDisctance = $(this).scrollTop();
         console.log(scrollDisctance);
@@ -117,7 +157,7 @@ $(document).ready(function(){
     });
     
     
-    $('.btn button').click(function(){
+    $('.btn2 button').click(function(){
         alert("Заявка отправлена!");
     });
     

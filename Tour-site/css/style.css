@@ -181,6 +181,7 @@
 }
 
 .fotorama{
+    position: relative;
     border-radius: 15%;
 }
 .our_trip{
@@ -704,6 +705,481 @@ footer{
 .btns_nav ul li a:hover{
     font-weight: bold;
 }
+
+.text_block2{
+    position: relative;
+    bottom: 70px;
+}
+
+.menu_button{
+    width: 100%;
+}
+
+.button_menu{
+    background: none;
+    width: 150px;
+    height: 70px;
+    background-color: rgba(209, 200, 186, 1);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.button_menu:active{
+    background-color: rgba(209, 200, 186, 0.7);
+}
+
+.menu_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    width: 150px;
+}
+
+.show_me{
+    display: flex !important;
+    position: relative;
+    opacity: 0;
+    top: 54px;
+    left: 223px;
+    height: 130px;
+    width: 140px;
+    flex-direction: column !important;
+    border: 1px solid black;
+    justify-content: space-between !important;
+    z-index: 1001;
+    text-align: center;
+    background-color: rgba(209, 200, 186, 0.7);
+    border-radius: 10px;
+    
+}
+
+.show_me2{
+    display: flex !important;
+    position: relative;
+    top: 31px;
+    left: 225px;
+    height: 100px;
+    width: 135px;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    z-index: 1001;
+    text-align: center;
+}
+
+.button_menu span{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.show_op{
+    
+    opacity: 1 !important;
+}
+
+.animate__animated animate__fadeInDown{
+    opacity: 0 !important;
+}
+
+@media (max-width: 1600px){
+    .cappadocia{
+        font-size: 200px;
+    }
+    .exclusive_tour{
+        font-size: 40px;
+    }
+    
+    .text_block2{
+    position: relative;
+    top: 55px;
+}
+    
+    .block_text{
+        position: relative;
+        right: 130px;
+        height: 600px;
+    }
+    .fotorama_fairy_tail{
+        width: 800px;
+    }
+    
+    .fotorama_our_trip{
+        width: 700px;
+        position: relative;
+        right: 180px;
+        top: 50px;
+    }
+    .block_text_our_trip{
+        position: relative;
+        top: 150px;
+        height: 400px;
+    }
+    
+    #bron{
+        position: relative;
+        top: 50px;
+    }
+    .block_price_column1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .price_info_1{
+        height: 200px;
+    }
+    .price_info_3{
+        width: 230px;
+        height: 90%;
+    }
+    .baloon3{
+        width: 150px;
+    }
+    
+    .block_price_1_1{
+        position: relative;
+        left: -100px;
+    }
+    .block_request{
+        position: relative;
+        right: 100px;
+    }
+}
+
+@media (max-width: 1530px){
+    .block_text{
+        position: relative;
+        right: 200px;
+        top: 50px;
+        height: 500px;
+        width: 35%;
+    }
+    .fotorama_our_trip{
+        width: 550px;
+        
+    }
+    
+    .block_text_our_trip{
+        position: relative;
+        top: 300px;
+        left: 100px;
+        height: 0px;
+    }
+    
+    .num_day{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    }
+    .span_text_our_trip{
+        font-size: 20px;
+    }
+    
+    .block_main_text_price, .block_request{
+        position: relative;
+        right: 250px;
+    }
+    .block_price_img{
+        position: relative;
+        right: 100px;
+    }
+    .main_text_price{
+        position: relative;
+        left: 250px;
+    }
+    .block_main_text_price2{
+        position: relative;
+        right: 500px;
+    }
+}
+
+@media (max-width: 1460px){
+    .block_text{
+        position: relative;
+        right: 300px;
+        top: 50px;
+        height: 500px;
+        width: 30%;
+    }
+    .fotorama_our_trip{
+        width: 550px;
+        
+    }
+    
+    .block_text_our_trip{
+        position: relative;
+        top: 300px;
+        left: 100px;
+        height: 0px;
+    }
+    
+    .num_day{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    }
+    .span_text_our_trip{
+        font-size: 20px;
+    }
+    
+    .block_main_text_price, .block_request{
+        position: relative;
+        right: 250px;
+    }
+    .block_price_img{
+        position: relative;
+        right: 100px;
+    }
+    .main_text_price{
+        position: relative;
+        left: 250px;
+    }
+    .block_main_text_price2{
+        position: relative;
+        right: 400px;
+    }
+    .block_name_text_input{
+        position: relative;
+        left: 110px;
+    }
+    
+    .block_price_1_1{
+        position: relative;
+        left: -100px;
+        width: 1200px;
+    }
+    
+    .block_text_contacts{
+        position: relative;
+        left: 10px;
+    }
+}
+
+@media (max-width: 1350px){
+    .main{
+        height: 100%;
+    }
+    .block_text{
+        position: relative;
+        right: 400px;
+        top: 50px;
+        height: 500px;
+        width: 25%;
+    }
+    .block2_our_trip{
+        position: relative;
+        right: 100px;
+    }
+    .fotorama_our_trip{
+        width: 550px;
+        
+    }
+    
+    .block_text_our_trip{
+        position: relative;
+        top: 300px;
+        left: 100px;
+        height: 0px;
+    }
+    
+    .num_day{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    }
+    .span_text_our_trip{
+        font-size: 20px;
+    }
+    
+    .block_price_column2{
+        width: 500px;
+    }
+    .text_block{
+        width: 450px;
+    }
+    .block_for_price{
+        position: relative;
+        left: 50px;
+    }
+    .text_block2{
+        position: relative;
+        top: 65px;
+    }
+    
+    .block2_price{
+        position: relative;
+        right: 100px;
+    }
+    
+    .block_main_text_price, .block_request{
+        position: relative;
+        right: 250px;
+    }
+    .block_price_img{
+        position: relative;
+        right: 100px;
+    }
+    .main_text_price{
+        position: relative;
+        left: 250px;
+    }
+    .block_main_text_price2{
+        position: relative;
+        right: 400px;
+    }
+    .block_name_text_input{
+        position: relative;
+        left: 110px;
+    }
+    
+    .block_price_1_1{
+        position: relative;
+        left: -100px;
+        width: 1200px;
+    }
+    
+    .block_text_contacts{
+        position: relative;
+        left: 10px;
+    }
+}
+
+
+
+@media (max-width: 1250px){
+    
+    .block_text{
+        position: relative;
+        right: 500px;
+        top: 50px;
+        height: 500px;
+        width: 20%;
+    }
+    
+    .fotorama_our_trip{
+        position: relative;
+        right: 250px;
+    }
+    
+    .hotel_text{
+        width: 500px;
+    }
+    
+    #hotel1{
+        width: 250px;
+        height: 150px;
+        
+    }
+    
+    #hotel2{
+        position: relative;
+        right: 80px;
+        width: 250px;
+        height: 150px;
+        
+    }
+    
+    #hotel3{
+        width: 250px;
+        height: 150px;
+        
+    }
+    
+    #hotel4{
+        position: relative;
+        right: 80px;
+        width: 250px;
+        height: 150px;
+        
+    }
+    
+    
+    .price_info_1{
+        width: 200px;
+    }
+    
+    
+    
+    .block_price_1_1{
+        position: relative;
+        width: 1100px;
+    }
+    
+    .price_info_2{
+        position: relative;
+        left: 200px;
+    }
+    
+    .block2_price{
+        position: relative;
+        right: 200px;
+    }
+    
+}
+
+
+
+@media (max-width: 1150px){
+    .block_img{
+        position: relative;
+        left: 200px;
+    }
+    .block_text{
+        position: relative;
+        top: 650px;
+        right: 600px;
+        width: 1000px;
+        height: 300px;
+    }
+    .block1_our_trip{
+        position: relative;
+        top: 300px;
+    }
+    
+    .block1_hotel{
+        position: relative;
+        top: 400px;
+        right: 90px;
+    }
+    
+    .main_text_hotel{
+        position: relative;
+        left: 90px;
+    }
+    .block1_price{
+        position: relative;
+        top: 500px;
+    }
+    
+    .block_price2{
+        position: relative;
+        top: 600px;
+    }
+    
+    .fotorama_our_trip{
+        position: relative;
+        right: 350px;
+    }
+    
+}
+
+@media (max-width: 393px){
+    .btns_nav ul li{
+        display: none;
+    }
+    
+    .block_number_nav{
+        position: relative;
+        right: 270px;
+    }
+    
+    .menu_button{
+        position: relative;
+        right: 240px;
+    }
+}
+
+
 
 
 

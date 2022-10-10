@@ -22,9 +22,9 @@
   <div class="nav_menu">
            <div class="btns_nav">
                <ul>
-                   <li><a href="#our_trip">Маршрут</a></li>
-                   <li><a href="#hotel">Отель</a></li>
-                   <li><a href="#price">Стоимость</a></li>
+                   <li id='li1'><a href="#our_trip">Маршрут</a></li>
+                   <li id='li2'><a href="#hotel">Отель</a></li>
+                   <li id='li3'><a href="#price">Стоимость</a></li>
                </ul>
            </div>
            <div class="number_nav">
@@ -34,6 +34,9 @@
                        <span>8(123)1234567</span>
                    </div>
                </div>
+           </div>
+           <div class="menu_button">
+               <button class='button_menu'><span>Меню</span></button>
            </div>
        </div>
    
@@ -67,9 +70,12 @@
        
        <div class="fairy_tail_img_text">
            <div class="block_img">
-               <div class="fotorama"
+               <div class="fotorama fotorama_fairy_tail"
              data-transition="slide"
-             data-clicktransition="dissolve">
+             data-clicktransition="dissolve"
+             data-autoplay="true"
+             data-autoplay="1000"
+             data-loop="true">
           <img src="img/img_fairy.jpg">
           <img src="img/img_fairy2.png">
           <img src="img/img_fairy3.png" alt="">
@@ -102,7 +108,7 @@
        
    </div>
    
-   
+   <div class="pustota2"></div>
    
    <div class="our_trip">
       <div class="block1_our_trip">
@@ -152,15 +158,18 @@
            </div>
            
            <div class="btn">
-               <button id="bron">ЗАБРОНИРОВАТЬ</button>
+               <button onclick="window.location.href = '#date';" id="bron">ЗАБРОНИРОВАТЬ</button>
            </div>
            
        </div>
        
        
-       <div class="fotorama"
+       <div class="fotorama fotorama_our_trip"
          data-transition="slide"
-         data-clicktransition="crossfade">
+         data-clicktransition="crossfade"
+         data-autoplay="true"
+             data-autoplay="1000"
+             data-loop="true">
           <img src="img/img_our_trip.png">
           <img src="img/img_our_trip2.png">
           <img src="img/img_our_trip3.png">
@@ -246,7 +255,7 @@
                        <div class="name_block">
                            <span>Включено</span>
                        </div>
-                       <div class="text_block">
+                       <div class="text_block text_block2">
                            <span>Проживание в двухместном номере в отеле с завтраками
                             </span>
                             <br>
@@ -274,7 +283,7 @@
                        </div>
                     <div class="block_for_price2">
                        <div class="text_block">
-                           <span>Авиа Киев-Анкара-Киев (140-170$)</span>
+                           <span>Авиа перелёты (140-170$)</span>
                            <br>
                            <span>Обеды и ужины (150$ на поездку)
                             </span>
@@ -313,7 +322,7 @@
         <div class="block_price_silence">
          <div class="block_main_text_price2">
                <div class="main_text_price">
-                   <span class="price_name">01.11.2022</span>
+                   <span class="price_name" id='date'>01.11.2022</span>
                <div class="block_span_price">
                    <span class='span_main_text_price'>Ближайшая дата тура</span>
                </div>
@@ -361,6 +370,9 @@
               
    </div>
    
+   <div class="pustota"></div>
+   <div class="pustota"></div>
+   <div class="pustota"></div>
    <div class="pustota"></div>
    
    
