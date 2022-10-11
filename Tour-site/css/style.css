@@ -1163,7 +1163,7 @@ footer{
     
 }
 
-@media (max-width: 393px){
+@media (max-width: 394px){
     .btns_nav ul li{
         display: none;
     }
