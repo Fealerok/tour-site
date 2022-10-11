@@ -716,6 +716,7 @@ footer{
 }
 
 .button_menu{
+    display: none;
     background: none;
     width: 150px;
     height: 70px;
@@ -1177,6 +1178,17 @@ footer{
         position: relative;
         right: 240px;
     }
+    
+    .button_menu{
+    display: block;
+    background: none;
+    width: 150px;
+    height: 70px;
+    background-color: rgba(209, 200, 186, 1);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
 }
 
 
