@@ -782,6 +782,7 @@ footer{
     opacity: 0 !important;
 }
 
+
 @media (max-width: 1600px){
     .cappadocia{
         font-size: 200px;
@@ -1116,6 +1117,53 @@ footer{
         right: 200px;
     }
     
+    .block2_our_trip{
+    display: flex;
+    width: 1050px;
+}
+    .fotorama_our_trip{
+        position: relative;
+        left: 0px;
+    }
+    
+    .fairy_tail_img_text{
+        width: 1200px;
+    }
+    
+    .block_text{
+        position: relative;
+        left: 0px;
+        width: 5000px;
+    }
+    
+    .block2_main_hotel{
+        width: 1100px;
+    }
+    .block_for_price{
+        width: 1100px;
+    }
+    
+    .block_main_hotel{
+        width: 1100px;
+    }
+    
+    html{
+        width: 100%;
+    }
+    
+    .block_img_text_hotel{
+        width: 550px;
+    }
+    .block_img1{
+        width: 500px;
+    }
+    .block_img2{
+        width: 500px;
+    }
+    .hotel_img{
+        width: 500px;
+    }
+    
 }
 
 
@@ -1163,6 +1211,156 @@ footer{
     }
     
 }
+
+
+
+@media (max-width: 700px){
+    .cappadocia{
+        font-size: 150px;
+    }
+    
+    .exclusive_tour{
+        font-size: 35px;
+    }
+    
+    .main{
+        height: 70%;
+    }
+    
+    .main_text_fairy_tail{
+        position: relative;
+        left: 80px;
+    }
+    
+    .fotorama_fairy_tail{
+        position: relative;
+        right: 100px;
+        width: 500px;
+    }
+    
+    .block_text{
+        position: relative;
+        top: 450px;
+        width: 550px;
+        left: -1030px;
+    }
+    
+    .fotorama_our_trip{
+        position: relative;
+        right: 670px;
+        width: 500px;
+    }
+    .block_main_text_our_trip{
+        position: relative;
+        left: 100px;
+    }
+    
+    .block_text_our_trip{
+        position: relative;
+        top: 900px;
+    }
+    
+    .day2{
+        position: relative;
+        top: -190px;
+        left: 300px;
+    }
+    
+    .day3{
+        position: relative;
+        top: -150px;
+    }
+    
+    .day4{
+        position: relative;
+        top: -300px;
+        left: 300px;
+    }
+    
+    .btn{
+        position: relative;
+        top: -250px;
+        left: 150px;
+    }
+    
+    .block1_hotel{
+        position: relative;
+        top: 750px;
+    }
+    
+    .main_text_hotel{
+        position: relative;
+        left: 230px;
+    }
+    
+    .block_img_hotel{
+        display: none;
+    }
+    .block_img_text_hotel{
+        position: relative;
+        left: 130px;
+    }
+    
+    .hotel_text{
+        width: 450px;
+    }
+    
+    #hotel1{
+        width: 200px;
+        height: 100px;
+    }
+    
+    #hotel2{
+        position: relative;
+        left: -150px;
+        width: 200px;
+        height: 100px;
+    }
+    
+    #hotel3{
+        position: relative;
+        top: -100px;
+        width: 200px;
+        height: 100px;
+    }
+    
+    #hotel4{
+        position: relative;
+        top: -100px;
+        left: -150px;
+        width: 200px;
+        height: 100px;
+    }
+    
+    
+    
+    .block1_price{
+        position: relative;
+        top: 600px;
+    }
+    
+    .price_info_1{
+        position: relative;
+        left: 0px;
+    }
+    
+    .price_info_2{
+        position: relative;
+        top: 300px;
+        left: 0px;
+    }
+    
+    .main_text_price{
+        position: relative;
+        left: 400px;
+    }
+    
+    .price_info_3{
+        display: none;
+    }
+}
+
+
 
 @media (max-width: 394px){
     .btns_nav ul li{
