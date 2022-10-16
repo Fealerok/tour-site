@@ -10,6 +10,12 @@
     font-display: swap;
 }
 
+body{
+    overflow-x: hidden;
+    width: 100%;
+    
+}
+
 
 .nav_menu{
     display: flex;
@@ -1133,7 +1139,7 @@ footer{
     .block_text{
         position: relative;
         left: 0px;
-        width: 5000px;
+        width: 500px;
     }
     
     .block2_main_hotel{
